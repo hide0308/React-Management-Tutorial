@@ -12,38 +12,38 @@ import { withStyles } from '@material-ui/core/styles'
 const styles = theme => ({
   root: {
     width: '100%',
-    marginTop: theme.spacing.unit * 3,
+    marginTop: theme.spacing.unit * 6,
     overflowX: "auto"
   },
   table: {
     minWidth: 1080
   }
 })
-const customers  = [
-{
-  'id' : 1,
-  'image' : 'http://placeimg.com/64/64/any/1',
-  'name' : '나동빈',
-  'birthday' : '961222',
-  'gender' : '남자',
-  'job' : '대학생'
-},
-{
-  'id' : 2,
-  'image' : 'http://placeimg.com/64/64/any/2',
-  'name' : '홍길동',
-  'birthday' : '960305',
-  'gender' : '남자',
-  'job' : '프로그래머'
-},
-{
-  'id' : 3,
-  'image' : 'http://placeimg.com/64/64/any/3',
-  'name' : '김다인',
-  'birthday' : '960618',
-  'gender' : '여자',
-  'job' : '디자이너'
-}
+const customers = [
+  {
+    'id': 1,
+    'image': 'http://placeimg.com/64/64/any/1',
+    'name': '나동빈',
+    'birthday': '961222',
+    'gender': '남자',
+    'job': '대학생'
+  },
+  {
+    'id': 2,
+    'image': 'http://placeimg.com/64/64/any/2',
+    'name': '홍길동',
+    'birthday': '960305',
+    'gender': '남자',
+    'job': '프로그래머'
+  },
+  {
+    'id': 3,
+    'image': 'http://placeimg.com/64/64/any/3',
+    'name': '김다인',
+    'birthday': '960618',
+    'gender': '여자',
+    'job': '디자이너'
+  }
 ]
 
 class App extends Component {
